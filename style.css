@@ -1,0 +1,15 @@
+.heroImage {
+  background-image: url("weather.jpg");
+  background-size: 100% 100%;
+  border-radius: 0;
+  height: 100vh;
+  margin-bottom: 0;
+}
+
+.alert {
+  display: none;
+}
+
+footer{
+    background-color:black;
+}

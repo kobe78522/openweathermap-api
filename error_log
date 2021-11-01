@@ -1,0 +1,87 @@
+[17-Sep-2021 05:04:23 UTC] PHP Warning:  file_get_contents(https://www.weather-forecast.com/locations/london134/forecasts/latest): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 09:11:21 UTC] PHP Warning:  file_get_contents(https://www.weather-forecast.com/locations/taipei1/forecasts/latest): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 09:11:27 UTC] PHP Warning:  file_get_contents(https://www.weather-forecast.com/locations/taipe/forecasts/latest): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 09:11:40 UTC] PHP Warning:  file_get_contents(https://www.weather-forecast.com/locations/jue/forecasts/latest): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 09:11:48 UTC] PHP Warning:  file_get_contents(https://www.weather-forecast.com/locations/台灣/forecasts/latest): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 09:18:51 UTC] PHP Warning:  file_get_contents(https://www.weather-forecast.com/locations/˙ˊ/forecasts/latest): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 09:19:06 UTC] PHP Warning:  file_get_contents(https://www.weather-forecast.com/locations/beijin/forecasts/latest): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 09:19:14 UTC] PHP Warning:  file_get_contents(https://www.weather-forecast.com/locations/bejin/forecasts/latest): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 09:31:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function typeof() in /home/designx/public_html/php/weather/scraper.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/designx/public_html/php/weather/scraper.php on line 14
+[17-Sep-2021 10:06:28 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=taipei*&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 6
+[17-Sep-2021 10:06:46 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=taipei*&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 6
+[17-Sep-2021 10:07:39 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=taipeiap&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 6
+[17-Sep-2021 11:21:06 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/designx/public_html/php/weather/scraper.php on line 6
+[17-Sep-2021 11:21:20 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/designx/public_html/php/weather/scraper.php on line 6
+[17-Sep-2021 11:21:47 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=嘉義&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 6
+[17-Sep-2021 11:22:09 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=民雄&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 6
+[17-Sep-2021 11:22:29 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=白河&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 6
+[17-Sep-2021 11:22:33 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=白河鎮&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 6
+[17-Sep-2021 11:22:59 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=巴黎&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 6
+[17-Sep-2021 11:23:12 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=洛杉磯&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 6
+[17-Sep-2021 11:23:22 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=北京&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 6
+[17-Sep-2021 11:25:39 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=嘉義&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 6
+[17-Sep-2021 11:29:35 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=嘉義&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 11:30:06 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=嘉義&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 11:30:10 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=嘉義&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 11:30:13 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=嘉義&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 11:34:29 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=嘉義&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 11:40:08 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=pro&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 11:43:35 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=嘉義&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 11:48:45 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=ru1&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 11:48:53 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=嘉義&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 11:49:18 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=嘉義&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 11:51:00 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=嘉義&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 11:51:05 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=wdr&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 11:51:42 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=wd&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 11:52:02 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=567&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 11:52:30 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=taipei555&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 8
+[17-Sep-2021 11:55:01 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/designx/public_html/php/weather/scraper.php on line 24
+[17-Sep-2021 11:55:56 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=taipei555&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 8
+[17-Sep-2021 11:59:00 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=嘉義&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 12:01:43 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=sfgsdg&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 12:03:38 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=嘉義&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
+[17-Sep-2021 12:03:48 UTC] PHP Warning:  file_get_contents(https://api.openweathermap.org/data/2.5/forecast?q=asdfasdf&amp;appid=ecc0529d9d2e1e67d3b5c5f1b954ef7e&amp;lang=zh_tw): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/designx/public_html/php/weather/scraper.php on line 7
